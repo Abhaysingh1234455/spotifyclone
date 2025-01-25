@@ -15,7 +15,7 @@ JavaScript: Functionality and interactivity.
 # Installation
 To run the Spotify Clone on your local machine, follow these steps:
 # Clone the repository
-git clone https://github.com/yourusername/spotify-clone.git
+git clone https://github.com/Abhaysingh1234455/spotifyclone.git
 
 # Navigate to the project directory
 cd spotify-clone
