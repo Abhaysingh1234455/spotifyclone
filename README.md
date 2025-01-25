@@ -18,8 +18,8 @@ To run the Spotify Clone on your local machine, follow these steps:
 git clone https://github.com/Abhaysingh1234455/spotifyclone.git
 
 # Navigate to the project directory
-cd spotify-clone
-# Open the index.html file in your browserUsageLoad the Playlist: Songs are displayed in the playlist section.
+ cd spotify-clone
+ #Open the index.html file in your browserUsageLoad the Playlist: Songs are displayed in the playlist section.
 # Usage
 1. load the playlist: Songs are displayed in the playlist section
 2. Play a Song: Click the play button to start playing the selected song.
