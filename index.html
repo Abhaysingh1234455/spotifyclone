@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="close">
+                <img width="30"class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo flex ">
+                    <img width="90" class="" src="img/logo.svg" alt="Spotify Logo">
+                </div>
+                <ul>
+                    <li class="flex homebtn "><img src="img/home.svg" alt="home"> Home</li>
+                    <li id="show-search" class="flex "><img src="img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading flex">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2 class="invert">
+                        Your Library
+                    </h2>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+                <div class="songList">
+                    <ul class="invert">
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right rounded ">
+            <div class="header bg-grey rounded">
+                <div class="nav flex">
+                    <div id="search-container" class="hidden">
+                        <input type="text" id="search-bar" placeholder="Search..." />
+                        <button id="close-search">Close</button>
+                    </div>
+                    <div class="hamburgerContainer">
+                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+                        <svg class="firstfig" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg class="secondfig" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="button">
+                        <button class="signupbtn invert">Sign up</button>
+                        <button class="loginbtn">Log in</button>
+                    </div>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="Bollywood" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5-LVdIaUMB--sF_om90z6C5zprdD7_lbiWg&s" alt="">
+                        <h2>Bollywood Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div data-folder="Diljit" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://images.genius.com/11e10023e52c7c81cb1cc5fe63349aa3.1000x1000x1.jpg" alt="">
+                        <h2>The Diljit Dosanjh!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div data-folder="Diljit" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://images.genius.com/11e10023e52c7c81cb1cc5fe63349aa3.1000x1000x1.jpg" alt="">
+                        <h2>The Diljit Dosanjh!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div data-folder="Diljit" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://images.genius.com/11e10023e52c7c81cb1cc5fe63349aa3.1000x1000x1.jpg" alt="">
+                        <h2>The Diljit Dosanjh!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div data-folder="Badshah" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <h2>Badshah!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                <div class="songinfo">
+
+                </div>
+                <div class="songbuttons">
+                <img id="previous" src="img/prevsong.svg" alt="">
+                <img id="play" src="img/play.svg" alt="">
+                <img id="next" src="img/nextsong.svg" alt="">
+                </div>
+                <div class="timevol">
+                <div class="songtime">
+
+                </div>
+                <div class="volume">
+                    <img src="img/volume.svg" alt="">
+                    <div class="range">
+                        <input type="range" name="volume" id="range">
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
